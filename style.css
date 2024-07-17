@@ -20,16 +20,30 @@ body {
     background-size: 100% 100%;
     height: 125vh;
 }
-.first-sub-container {
-
+.first-sub-container-a {
+    padding-top: 100px;
 }
 .first-p{
-    font-size: 5.25rem;
+    font-size: 5.50rem;
+    margin-bottom: -20px;
 }
 .first-p > span{
     font-size: 2.5rem;
 }
 .first-p1{
-    font-size: 6rem;
+    font-size: 6.5rem;
 }
 /* Name and Profession Ended */
+
+/* Work Started */
+.work-container {
+    background-color: #161619;
+    
+}
+.work-p {
+    font-size: 7rem;
+}
+.work-p > span {   
+    font-size: 15rem;
+}
+/* Work Ended */
