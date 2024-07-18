@@ -47,3 +47,22 @@ body {
     font-size: 15rem;
 }
 /* Work Ended */
+
+/* Skills Started */
+.skill-container {
+    padding: 100px 0px;
+}
+.skill-sub-container {
+    min-width: 350px;
+    flex-basis: 25%;
+}
+.skill-sub-container > :nth-child(2){
+    padding: 65px 0px;
+}
+.skill-p {
+    font-size: 1.25rem;
+}
+.skill-p1 {
+    font-size: 1.25rem;
+}
+/* Skills Ended */
