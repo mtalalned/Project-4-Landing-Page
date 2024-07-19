@@ -68,6 +68,38 @@ body {
 }
 /* Skills Ended */
 
+
+/* Contact / About Started */
+.contact-container {
+    border: 1px solid black;
+}
+.contact-sub-container-1{
+    background-color: #515603;
+    padding: 35px 115px 35px 95px;
+    flex-basis: 50%;
+}
+.contact-sub-container-2{
+    background-color: #722300;
+    flex-basis: 50%;
+    padding: 35px 115px 35px 95px;
+}
+.contact-p{
+    font-size: 6.5rem;
+}
+.contact-p2{
+    font-size: 1.35rem
+}
+/* Contact / About Ended */
+
+@media (max-width: 1005px) {
+    .contact-sub-container-1 {
+        flex-basis: 100%;
+    }
+    .contact-sub-container-2 {
+        flex-basis: 100%;
+    }
+}
+
 @media (max-width: 775px) {
     html {
         font-size: 50%;
@@ -85,6 +117,12 @@ body {
     }
     .skill-p1 {
         font-size: 1.55rem;
+    }
+    .contact-p{
+        font-size: 8rem;
+    }
+    .contact-p2{
+        font-size: 1.70rem
     }
 }
 @media (max-width: 620px) {
